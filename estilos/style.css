@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Paleta de cores:
+
+Azul claro: #50D2FA
+Azul:#509CFA
+Azul escuro: #4F66FA
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,
+html {
+    background-color: #4F66FA;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #fff;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #1d255a;
+}
+
+section#login>div#imagem img {
+    background: #4F66FA url(../imagens/pexels-david-underland-3523621.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 250px;
+}
+
+section#login>div#formulario {
+    display: block;
+    padding: 15px;
+}
